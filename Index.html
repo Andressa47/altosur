@@ -1,0 +1,1200 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AltoSur</title>
+
+  <!-- 
+    - ICONO DE PESTAÑA
+  -->
+  <link rel="shortcut icon" href="logo.png" type="image/svg+xml">
+
+  <!-- 
+    - CSS
+  -->
+<link rel="stylesheet" href="Styles.css">
+
+
+  <!-- 
+    -FUENTES
+  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <!-- 
+    - IMAGENES PRINCIPALES
+  -->
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - HEADER
+  -->
+
+  <header class="header">
+
+     <!-- 
+    agrreglar barra de navegacion: se rompe cuando esta en movil
+    arreglar input de correo
+  --> 
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">30% de descuento en tu primer pedido</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="Abrir menú" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="logo.png" width="179" height="26" alt="AltoSur">
+        </a>
+
+        <div class="header-actions">
+
+         <a href="Login.html"> <button class="header-action-btn" aria-label="Usuario">
+            <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button></a>
+
+
+
+          <a href="Carrito.html" target="_blank"><button class="header-action-btn" aria-label="Carrito de compras">
+            <data class="btn-text" value="0">$0.00</data>
+
+            <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+</a>
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link has-after">Inicio</a>
+            </li>
+
+            <li>
+              <a href="#collection" class="navbar-link has-after">Categorías</a>
+            </li>
+
+            <li>
+              <a href="#shop" class="navbar-link has-after">Productos</a>
+            </li>
+
+            <li>
+              <a href="#NOSOTROS" class="navbar-link has-after">Nosotros</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link has-after">Contactos</a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - BARRA DE NAVEGACION PARA TELEFONOS
+  -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="logo.png" width="179" height="26" alt="Glowing">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Categorías</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="navbar-link" data-nav-link>Productos</a>
+        </li>
+
+        <li>
+          <a href="#offer" class="navbar-link" data-nav-link>Ofertas</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="navbar-link" data-nav-link>Contactos</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <section class="section hero" id="home" aria-label="hero" data-section>
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Lo mejor del mundo <br>
+                    cerca de ti.
+                  </h1>
+
+                  <p class="hero-text">
+                    Seleccionamos lo que el mundo ama, para que tú lo disfrutes.
+                  </p>
+
+                  <a href="Catalogo.html" class="btn btn-primary" target="_blank">¡Vamos a comprar!</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Elige con intención. <br>
+                     Elige AltoSur.
+                  </h1>
+
+                  <p class="hero-text">
+                    De los mejores orígenes, directo a tus manos.
+                  </p>
+
+                  <a href="#" class="btn btn-primary">¡Vamos a comprar!</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Natural por dentro, <br>
+                    impecable por fuera.
+                  </h1>
+
+                  <p class="hero-text">
+                    Cultivamos calidad, cosechas bienestar.
+                  </p>
+
+                  <a href="Catalogo.html" class="btn btn-primary" target="_blank">¡Vamos a comprar!</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <section class="section collection" id="collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Carnes y Pescados</h2>
+
+                <p class="card-text">Sabores que rinden culto a la excelencia.
+Cortes premium y pescados frescos seleccionados con estándares de alta cocina.</p>
+
+                 <a href="Catalogo.html" class="btn-link" target="_blank">
+                  <span class="span">Ir</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('https://th.bing.com/th/id/OIP.7ZQ5aLGz6M7ZTPszPrCr7gHaFj?cb=iwc2&rs=1&pid=ImgDetMain')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Panadería y Pastelería</h2>
+
+                <p class="card-text">El arte del horno, con alma artesanal.
+Panes de masa madre, croissants dorados y postres que conquistan desde la primera mirada.</p>
+                  <a href="Catalogo.html" class="btn btn-primary" target="_blank">¡Vamos a comprar!</a>
+                  <span class="span">Ir</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/collection-1.jpg')"></div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Frutas y Verduras</h2>
+
+                <p class="card-text">Naturalmente exquisitas.
+Productos de estación, orgánicos y cuidadosamente seleccionados para una alimentación consciente y gourmet.</p>
+
+            <a href="Catalogo.html" class="btn-link" target="_blank">
+                  <span class="span">Ir</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/collection-1.jpg')"></div>
+
+              </div>
+            </li>
+
+                        <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Dulces y Chocolatería</h2>
+
+                <p class="card-text">Un rincón para el deleite más puro.
+Bombones artesanales, chocolates bean-to-bar y dulces que despiertan emociones.</p>
+
+            <a href="Catalogo.html" class="btn-link" target="_blank">
+                  <span class="span">Ir</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('')"></div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Cosmética Natural & Cuidado Personal</h2>
+
+                <p class="card-text">Belleza consciente, desde la raíz.
+Productos botánicos, veganos y de origen natural que nutren cuerpo y alma con lujo responsable.</p>
+
+            <a href="Catalogo.html" class="btn-link" target="_blank">
+                  <span class="span">Ir</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/collection-3.jpg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Todas las categorías</h2>
+
+                <p class="card-text">Visita nuestro catálogo competo de productos</p>
+
+            <a href="Catalogo.html" class="btn-link" target="_blank">
+                  <span class="span">Ir</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/collection-3.jpg')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SHOP
+      -->
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Nuestros más vendidos</h2>
+
+            <a href="Catalogo.html" class="btn-link" target="_blank">
+              <span class="span">Ver todos los productos</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+  <!-- Filete de res premium -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy" alt="Filete de res premium" class="img-cover">
+      <span class="badge" aria-label="15% off">-15%</span>
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q85</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Filete de res premium</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+  </div>
+</li>
+
+<!-- Pechuga de pollo deshuesada -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy" alt="Pechuga de pollo deshuesada" class="img-cover">
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q32</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Pechuga de pollo deshuesada</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+  </div>
+</li>
+
+<!-- Salmón fresco (250g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy" alt="Salmón fresco (250g)" class="img-cover">
+      <span class="badge" aria-label="10% off">-10%</span>
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q65</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Salmón fresco (250g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+  </div>
+</li>
+
+<!-- Pan integral (700g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy" alt="Pan integral (700g)" class="img-cover">
+      <span class="badge" aria-label="2x1">2x1</span>
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q18</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Pan integral (700g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+  </div>
+</li>
+
+<!-- Donas glaseadas -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy" alt="Donas glaseadas" class="img-cover">
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q8</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Donas glaseadas</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+  </div>
+</li>
+
+<!-- Manzanas rojas (1kg) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy" alt="Manzanas rojas (1kg)" class="img-cover">
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q16</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Manzanas rojas (1kg)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Frutas y Verduras</p>
+      </div>
+    </div>
+  </div>
+</li>
+
+<!-- Chocolate negro 70% (100g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy" alt="Chocolate negro 70% (100g)" class="img-cover">
+      <span class="badge" aria-label="3 por Q65">3x65</span>
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q25</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Chocolate negro 70% (100g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+  </div>
+</li>
+
+<!-- Shampoo sólido de coco -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy" alt="Shampoo sólido de coco" class="img-cover">
+      <span class="badge" aria-label="15% off">-15%</span>
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q45</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Shampoo sólido de coco</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Cosmética Natural</p>
+      </div>
+    </div>
+  </div>
+</li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="section shop" id="shop" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Promociones especiales</h2>
+
+            <a href="Catalogo.html" class="btn-link" target="_blank">
+              <span class="span">Ver todos los productos</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="has-scrollbar">
+
+            <!-- Producto: Donas glaseadas -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Donas glaseadas" class="img-cover">
+
+      <span class="badge" aria-label="4 por Q28">4xQ28</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q8</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Donas glaseadas</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Chocolate negro 70% (100g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Chocolate negro 70% (100g)" class="img-cover">
+
+      <span class="badge" aria-label="3 por Q65">3xQ65</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q25</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Chocolate negro 70% (100g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Shampoo sólido de coco -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Shampoo sólido de coco" class="img-cover">
+
+      <span class="badge" aria-label="15% off en la segunda unidad">-15%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q45</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Shampoo sólido de coco</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Cosmética Natural</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Camarones medianos (500g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Camarones medianos (500g)" class="img-cover">
+
+      <span class="badge" aria-label="20% off en la tercera unidad">-20%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q90</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Camarones medianos (500g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Galletas de avena -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Galletas de avena" class="img-cover">
+
+      <span class="badge" aria-label="10% off en compras mayores a Q50">-10%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q15</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Galletas de avena</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Bombones surtidos -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Bombones surtidos" class="img-cover">
+
+      <span class="badge" aria-label="2x1 en compras mayores a Q70">2x1</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q35</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Bombones surtidos</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Pan integral (700g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Pan integral (700g)" class="img-cover">
+
+      <span class="badge" aria-label="2x1 los martes">2x1</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q18</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Pan integral (700g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - NOSOTROS
+      -->
+
+      <section class="section banner" aria-label="banner" id="NOSOTROS" data-section>
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li>
+              <div class="banner-card banner-card-1 has-before hover:shine">
+
+                <p class="card-subtitle">Historia de AltoSur</p>
+
+                <P class="card-text">AltoSur nació con la misión de ofrecer productos premium y exclusivos para aquellos que valoran lo mejor en su vida diaria. Buscamos transformar la experiencia de compra, brindando productos gourmet y de calidad excepcional para nuestros clientes más exigentes.
+
+                </P>
+
+                <a href="Catalogo.html" class="btn btn-secondary" target="_blank">Ver tienda</a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/banner-1.jpg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="banner-card banner-card-2 has-before hover:shine">
+
+                <h2 class="h2 card-title">Nuestro objetivo</h2>
+
+                <p class="card-text">
+                 Conectar emocionalmente con el público, resaltando la calidad, la dedicación y el compromiso con la sustentabilidad de la marca.
+                </p>
+
+                <a href="#blog" class="btn btn-secondary">Contactanos</a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/banner-2.jpg')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title">Comprometidos con lo que importa:</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/feature-1.jpg" width="204" height="236" loading="lazy" alt="Guaranteed PURE"
+                  class="card-icon">
+
+                <h3 class="h3 card-title">Calidad</h3>
+
+                <p class="card-text">
+                   Cada producto que llega a nuestras manos es cuidadosamente seleccionado para asegurar que cumpla con los más altos estándares de calidad. Sabemos que nuestros clientes buscan lo mejor, por lo que no escatimamos esfuerzos en elegir solo lo excepcional.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/feature-2.jpg" width="204" height="236" loading="lazy"
+                  alt="Completely Cruelty-Free" class="card-icon">
+
+                <h3 class="h3 card-title">Cuidado</h3>
+
+                <p class="card-text">
+                  Cuidamos cada detalle, desde la selección de nuestros proveedores hasta la experiencia de compra en nuestra tienda. Creemos que el cuidado se refleja no solo en nuestros productos, sino también en cómo nos relacionamos con nuestra comunidad y nuestros clientes.
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/feature-3.jpg" width="204" height="236" loading="lazy"
+                  alt="Ingredient Sourcing" class="card-icon">
+
+                <h3 class="h3 card-title">Sustentabilidad</h3>
+
+                <p class="card-text">
+                 En AltoSur entendemos que el futuro depende de las decisiones que tomemos hoy. Por eso, trabajamos con proveedores que comparten nuestro compromiso con el medio ambiente y la sustentabilidad, garantizando que nuestros productos no solo sean buenos para ti, sino también para el planeta.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title">Visitar</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="./assets/images/blog-2.jpg" width="700" height="450" loading="lazy" alt="From Our Blog"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="Carrito.html" class="card-title" target="_blank">Carrito de compras</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Ir</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder has-before hover:shine" style="--width: 700; --height: 450;">
+                  <img src="./assets/images/blog-3.jpg" width="700" height="450" loading="lazy" alt="Our Story"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="Catalogo.html" class="card-title" target="_blank">Catálogo</a>
+                </h3>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Ir</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">AltoSur</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              Encuentra un local cerca de ti <a href="#" class="link">Nuestras tiendas</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+502 3525 4593</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">AltoSur466@gmail.com</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Podría ser útil...</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Productos nuevos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Mejores vendidos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Gift Cards</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Información</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Volver</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contactanos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Términos y condiciones</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Política de privacidad</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="newsletter-title">Notificaciones</p>
+
+          <p class="newsletter-text">
+            Deja tu correo electronico para ser el primero en enterarte de nuestras promociones.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Escribe tu correo" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-primary">Subscribirse</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <p class="copyright">
+            &copy; 2025 Eunise Román, Darwin López. Todos los derechos reservados.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="logo.png" width="179" height="26" loading="lazy" alt="Glowing">
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="Script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

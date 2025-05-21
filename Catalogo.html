@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AltoSur</title>
+
+  <!-- 
+    - ICONO DE PESTAÑA
+  -->
+  <link rel="shortcut icon" href="logo.png" type="image/svg+xml">
+
+  <!-- 
+    - CSS
+  -->
+<link rel="stylesheet" href="Styles.css">
+
+
+  <!-- 
+    -FUENTES
+  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!-- 
+    - HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="Abrir menú" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="input-wrapper">
+          <input type="search" name="search" placeholder="Buscar productos" class="search-field">
+
+          <button class="search-submit" aria-label="Buscar">
+            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="logo.png" width="179" height="26" alt="AltoSur">
+        </a>
+
+        <div class="header-actions">
+
+         <a href="Usuario.html"> <button class="header-action-btn" aria-label="Usuario">
+            <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+          </button></a>
+          
+          <a href="Carrito.html" target="_blank"><button class="header-action-btn" aria-label="Carrito de compras">
+            <data class="btn-text" value="0">$0.00</data>
+
+            <ion-icon name="bag-handle-outline" aria-hidden="true" aria-hidden="true"></ion-icon>
+
+            <span class="btn-badge">0</span>
+          </button>
+
+        </div>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+
+        <li>
+          <a href="#inicio" class="navbar-link" data-nav-link>Inicio</a>
+        </li>
+
+        <li>
+          <a href="#frutas" class="navbar-link" data-nav-link>Frutas y Verduras</a>
+        </li>
+
+        <li>
+          <a href="#panaderia" class="navbar-link" data-nav-link>Panadería y Pastelería</a>
+        </li>
+
+        <li>
+          <a href="#dulces" class="navbar-link" data-nav-link>Dulces y Chocolatería</a>
+        </li>
+
+        <li>
+          <a href="#cosmeticos" class="navbar-link" data-nav-link>Cosmética Natural</a>
+        </li>
+
+                <li>
+          <a href="#carnes" class="navbar-link" data-nav-link>Carnes y Pescados</a>
+        </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <!-- 
+    - BARRA DE NAVEGACION PARA TELEFONOS
+  -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="logo.png" width="179" height="26" alt="Glowing">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+                  <a href="#inicio" class="navbar-link" data-nav-link>Inicio</a>
+        </li>
+
+        <li>
+          <a href="#frutas" class="navbar-link" data-nav-link>Frutas y Verduras</a>
+        </li>
+
+        <li>
+          <a href="#panaderia" class="navbar-link" data-nav-link>Panadería y Pastelería</a>
+        </li>
+
+        <li>
+          <a href="#dulces" class="navbar-link" data-nav-link>Dulces y Chocolatería</a>
+        </li>
+
+        <li>
+          <a href="#cosmeticos" class="navbar-link" data-nav-link>Cosmética Natural</a>
+        </li>
+
+                <li>
+          <a href="#carnes" class="navbar-link" data-nav-link>Carnes y Pescados</a>
+        </li>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+  <!--INICIO-->
+
+
+      <!--------------------------------------PRODUCTOS------------------------------------>
+
+      <!----------------FRUTAS-
+      
+      ARREGLAR EL CARRUSEL DE FRUTAS
+      ARREGLAR HEADER EN MOVIL
+      ARREGLAR SLIDERS QUE SE BUGEAN
+      ARREGLAR TAMAÑOS EN BUSQUEDA
+      ARREGLAR FOOTER
+      
+      ------------->
+
+        <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+<section class="section shop" id="frutas" aria-label="shop" data-section>
+  <div class="container">
+
+    <div class="title-wrapper">
+      <h2 class="h2 section-title">Frutas y Verduras</h2>
+    </div>
+
+    <ul class="has-scrollbar">
+
+      <!-- Producto: Manzanas rojas (1kg) -->
+      <li class="scrollbar-item">
+        <div class="shop-card">
+          <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+            <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+              alt="Manzanas rojas (1kg)" class="img-cover">
+            <span class="badge" aria-label="2kg por Q28">2kg por Q28</span>
+            <div class="card-actions">
+              <button class="action-btn" aria-label="add to cart">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="price"><span class="span">Q16</span></div>
+            <h3><a href="#" class="card-title">Manzanas rojas (1kg)</a></h3>
+            <div class="card-rating"><p class="rating-text">Frutas y Verduras</p></div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Producto: Bananos (1 docena) -->
+      <li class="scrollbar-item">
+        <div class="shop-card">
+          <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+            <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+              alt="Bananos (1 docena)" class="img-cover">
+            <div class="card-actions">
+              <button class="action-btn" aria-label="add to cart">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="price"><span class="span">Q12</span></div>
+            <h3><a href="#" class="card-title">Bananos (1 docena)</a></h3>
+            <div class="card-rating"><p class="rating-text">Frutas y Verduras</p></div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Producto: Zanahorias (500g) -->
+      <li class="scrollbar-item">
+        <div class="shop-card">
+          <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+            <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+              alt="Zanahorias (500g)" class="img-cover">
+            <span class="badge" aria-label="10% off en compras mayores a Q30">10% off</span>
+            <div class="card-actions">
+              <button class="action-btn" aria-label="add to cart">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="price"><span class="span">Q8</span></div>
+            <h3><a href="#" class="card-title">Zanahorias (500g)</a></h3>
+            <div class="card-rating"><p class="rating-text">Frutas y Verduras</p></div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Producto: Fresas (250g) -->
+      <li class="scrollbar-item">
+        <div class="shop-card">
+          <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+            <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+              alt="Fresas (250g)" class="img-cover">
+            <span class="badge" aria-label="3x2 en compras mayores a Q40">3x2</span>
+            <div class="card-actions">
+              <button class="action-btn" aria-label="add to cart">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="price"><span class="span">Q14</span></div>
+            <h3><a href="#" class="card-title">Fresas (250g)</a></h3>
+            <div class="card-rating"><p class="rating-text">Frutas y Verduras</p></div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Producto: Lechuga romana -->
+      <li class="scrollbar-item">
+        <div class="shop-card">
+          <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+            <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+              alt="Lechuga romana" class="img-cover">
+            <div class="card-actions">
+              <button class="action-btn" aria-label="add to cart">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="price"><span class="span">Q7</span></div>
+            <h3><a href="#" class="card-title">Lechuga romana</a></h3>
+            <div class="card-rating"><p class="rating-text">Frutas y Verduras</p></div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Producto: Papas (1kg) -->
+      <li class="scrollbar-item">
+        <div class="shop-card">
+          <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+            <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+              alt="Papas (1kg)" class="img-cover">
+            <span class="badge" aria-label="Lleva 2kg por Q18">2kg por Q18</span>
+            <div class="card-actions">
+              <button class="action-btn" aria-label="add to cart">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="price"><span class="span">Q10</span></div>
+            <h3><a href="#" class="card-title">Papas (1kg)</a></h3>
+            <div class="card-rating"><p class="rating-text">Frutas y Verduras</p></div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+                <!------------------PANADERIA------------------->
+
+              <section class="section shop" id="panaderia" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Panadería y Pastelería</h2>
+          </div>
+
+          <ul class="has-scrollbar">
+            <!-- Producto: Donas glaseadas -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Donas glaseadas" class="img-cover">
+
+      <span class="badge" aria-label="4 por Q28">4 por Q28</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q8</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Donas glaseadas</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Pastel de chocolate (porción) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Pastel de chocolate (porción)" class="img-cover">
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q22</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Pastel de chocolate (porción)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Pan francés -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Pan francés" class="img-cover">
+
+      <span class="badge" aria-label="15% off en la segunda unidad">-15%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q12</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Pan francés</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Croissants de mantequilla -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Croissants de mantequilla" class="img-cover">
+
+      <span class="badge" aria-label="3 por Q25">3 por Q25</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q10</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Croissants de mantequilla</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Galletas de avena -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Galletas de avena" class="img-cover">
+
+      <span class="badge" aria-label="10% off en compras mayores a Q50">10% off</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q15</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Galletas de avena</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Pan de centeno -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Pan de centeno" class="img-cover">
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q20</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Pan de centeno</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+          </ul>
+        </div>
+
+<!-----------------DULCES-------------------------------->
+
+              <section class="section shop" id="dulces" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Dulces y Chocolatería</h2>
+          </div>
+
+          <ul class="has-scrollbar">
+            <!-- Producto: Chocolate negro 70% (100g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Chocolate negro 70% (100g)" class="img-cover">
+
+      <span class="badge" aria-label="3 por Q65">3 por Q65</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q25</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Chocolate negro 70% (100g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Barras de caramelo -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Barras de caramelo" class="img-cover">
+
+      <span class="badge" aria-label="10% off en la segunda unidad">-10%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q5</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Barras de caramelo</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Gomas de frutas (200g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Gomas de frutas (200g)" class="img-cover">
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q18</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Gomas de frutas (200g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Bombones surtidos -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Bombones surtidos" class="img-cover">
+
+      <span class="badge" aria-label="2x1 en compras mayores a Q70">2x1</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q35</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Bombones surtidos</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Paletas de chocolate -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Paletas de chocolate" class="img-cover">
+
+      <span class="badge" aria-label="4 por Q28">4 por Q28</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q8</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Paletas de chocolate</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Turrones -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Turrones" class="img-cover">
+
+      <span class="badge" aria-label="20% off este fin de semana">-20%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q15</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Turrones</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Galletas rellenas -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Galletas rellenas" class="img-cover">
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q12</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Galletas rellenas</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Dulces y Chocolatería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+          </ul>
+        </div>
+
+<!--------------------COSMETICOS--------------------->
+
+              <section class="section shop" id="cosmeticos" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Cosmética Natural</h2>
+          </div>
+
+          <ul class="has-scrollbar">
+            <!-- Producto: Shampoo sólido de coco -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Shampoo sólido de coco" class="img-cover">
+
+      <span class="badge" aria-label="15% off en la segunda unidad">-15%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q45</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Shampoo sólido de coco</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Cosmética Natural</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Jabón de lavanda -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Jabón de lavanda" class="img-cover">
+
+      <span class="badge" aria-label="3 por Q45">3 por Q45</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q18</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Jabón de lavanda</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Cosmética Natural</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Crema hidratante -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Crema hidratante" class="img-cover">
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q55</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Crema hidratante</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Cosmética Natural</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Aceite esencial de menta -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Aceite esencial de menta" class="img-cover">
+
+      <span class="badge" aria-label="10% off en compras mayores a Q100">-10%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q32</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Aceite esencial de menta</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Cosmética Natural</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Desodorante natural -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Desodorante natural" class="img-cover">
+
+      <span class="badge" aria-label="2x1 los miércoles">2x1</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q28</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Desodorante natural</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Cosmética Natural</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Mascarilla facial -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Mascarilla facial" class="img-cover">
+
+      <span class="badge" aria-label="20% off este fin de semana">-20%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q40</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Mascarilla facial</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Cosmética Natural</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Bálsamo labial -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Bálsamo labial" class="img-cover">
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q15</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Bálsamo labial</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Cosmética Natural</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+          </ul>
+        </div>
+              </section>
+
+<!----------------------------CARNES------------------------>
+
+              <section class="section shop" id="carnes" aria-label="shop" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Carnes y Pescados</h2>
+            <ul class="has-scrollbar">
+            <!-- Producto: Filete de res premium -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Filete de res premium" class="img-cover">
+
+      <span class="badge" aria-label="15% off en la segunda unidad">-15%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q85</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Filete de res premium</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Pechuga de pollo deshuesada -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Pechuga de pollo deshuesada" class="img-cover">
+
+      <span class="badge" aria-label="3x2 en compras mayores a Q100">3x2</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q32</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Pechuga de pollo deshuesada</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Salmón fresco (250g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Salmón fresco (250g)" class="img-cover">
+
+      <span class="badge" aria-label="10% off este fin de semana">-10%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q65</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Salmón fresco (250g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Chuletas de cerdo -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Chuletas de cerdo" class="img-cover">
+
+      <span class="badge" aria-label="Lleva 2 por Q80">2xQ80</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q45</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Chuletas de cerdo</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Tilapia entera -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Tilapia entera" class="img-cover">
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q28</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Tilapia entera</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Carne molida especial -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Carne molida especial" class="img-cover">
+
+      <span class="badge" aria-label="2x1 en compras mayores a Q150">2x1</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q55</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Carne molida especial</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Camarones medianos (500g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Camarones medianos (500g)" class="img-cover">
+
+      <span class="badge" aria-label="20% off en la tercera unidad">-20%</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q90</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Camarones medianos (500g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Carnes y Pescados</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+
+<!-- Producto: Pan integral (700g) -->
+<li class="scrollbar-item">
+  <div class="shop-card">
+
+    <div class="card-banner img-holder" style="--width: 540; --height: 720;">
+      <img src="./assets/images/product-13.jpg" width="540" height="720" loading="lazy"
+        alt="Pan integral (700g)" class="img-cover">
+
+      <span class="badge" aria-label="2x1 los martes">2x1</span>
+
+      <div class="card-actions">
+        <button class="action-btn" aria-label="add to cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+
+    <div class="card-content">
+      <div class="price">
+        <span class="span">Q18</span>
+      </div>
+      <h3>
+        <a href="#" class="card-title">Pan integral (700g)</a>
+      </h3>
+      <div class="card-rating">
+        <p class="rating-text">Panadería y Pastelería</p>
+      </div>
+    </div>
+
+  </div>
+</li>
+          </div>
+
+          
+          </ul>
+        </div>
+
+
+</main>
+    
+<!--FOOTER-->
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">AltoSur</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              Encuentra un local cerca de ti <a href="#" class="link">Nuestras tiendas</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+502 3525 4593</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">AltoSur466@gmail.com</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Podría ser útil...</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Productos nuevos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Mejores vendidos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Gift Cards</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Información</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Volver</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contactanos</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Términos y condiciones</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Política de privacidad</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="newsletter-title">Notificaciones</p>
+
+          <p class="newsletter-text">
+            Deja tu correo electronico para ser el primero en enterarte de nuestras promociones.
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Escribe tu correo" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-primary">Subscribirse</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <p class="copyright">
+            &copy; 2025 Eunise Román, Darwin López. Todos los derechos reservados.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <a href="#" class="logo">
+          <img src="logo.png" width="179" height="26" loading="lazy" alt="Glowing">
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+  <!-- 
+    - custom js link
+  -->
+  <script src="Script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>

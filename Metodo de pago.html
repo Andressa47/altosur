@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Método de Pago</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Agrega tus estilos aquí -->
+</head>
+<body>
+
+    <header class="header">
+    <div class="header-top" data-header>
+      <div class="container">
+        <button class="nav-open-btn" aria-label="Abrir menú" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+        <a href="#" class="logo">
+          <img src="logo.png" width="179" height="26" alt="AltoSur">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <div class="container">
+    <div class="card payment-method">
+      <div class="title">Método de Pago</div>
+
+      <form id="payment-form">
+        <div>
+          <label for="card-name">Nombre del Titular</label>
+          <input type="text" id="card-name" name="card-name" placeholder="Ej. Juan Pérez" required>
+        </div>
+
+        <div>
+          <label for="card-number">Número de Tarjeta</label>
+          <input type="text" id="card-number" name="card-number" maxlength="19" placeholder="1234 5678 9012 3456" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="expiry">Fecha de Expiración</label>
+            <input type="text" id="expiry" name="expiry" placeholder="MM/AA" required>
+          </div>
+
+          <div class="form-group">
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" maxlength="4" placeholder="123" required>
+          </div>
+        </div>
+
+       <form action="pago.php" method="POST">
+  <input type="text" name="nombre" required placeholder="Nombre del Titular">
+  <input type="text" name="numero" required placeholder="Número de tarjeta">
+  <input type="text" name="fecha" required placeholder="MM/AA">
+  <input type="text" name="cvv" required placeholder="CVV">
+  <button type="submit" class="checkout-btn">Pagar</button>
+</form>
+      </form>
+    </div>
+  </div>
+
+  <!-- Pie de página -->
+  <footer>
+    <p class="copyright">
+      &copy; 2025 Eunise Román, Darwin López. Todos los derechos reservados.
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="Script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+</body>
+</html>

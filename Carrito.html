@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de compras</title>
+
+  <link rel="shortcut icon" href="logo.png" type="image/svg+xml">
+
+  <!-- 
+    - CSS
+  -->
+<link rel="stylesheet" href="Styles.css">
+
+
+  <!-- 
+    -FUENTES
+  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <!-- 
+    - IMAGENES PRINCIPALES
+  -->
+  <link rel="preload" as="image" href="./assets/images/logo.png">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-3.jpg">
+</head>
+<body>
+  <header class="header">
+
+    <div class="header-top" data-header>
+      <div class="container">
+
+        <button class="nav-open-btn" aria-label="Abrir menú" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="logo.png" width="179" height="26" alt="AltoSur">
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+  <!--
+  arreglar responsive
+  -->
+
+<div class="container">
+  <div class="card cart">
+    <div class="title">Mi Carrito</div>
+    <div class="steps">
+      <table>
+        <tbody id="cart-body">
+          <tr data-price="85">
+            <td><img src="./assets/images/product-13.jpg" alt="Producto"></td>
+            <td>Filete de Res Premium</td>
+            <td>Q85</td>
+            <td>
+              <div class="quantity-controls">
+                <button onclick="updateQuantity(this, -1)">-</button>
+                <span class="quantity">1</span>
+                <button onclick="updateQuantity(this, 1)">+</button>
+              </div>
+            </td>
+            <td class="subtotal">Q85.00</td>
+            <td><button class="remove-btn" onclick="removeProduct(this)">Eliminar</button></td>
+          </tr>
+          <tr data-price="85">
+            <td><img src="./assets/images/product-13.jpg" alt="Producto"></td>
+            <td>Filete de Res Premium</td>
+            <td>Q85</td>
+            <td>
+              <div class="quantity-controls">
+                <button onclick="updateQuantity(this, -1)">-</button>
+                <span class="quantity">1</span>
+                <button onclick="updateQuantity(this, 1)">+</button>
+              </div>
+            </td>
+            <td class="subtotal">Q85.00</td>
+            <td><button class="remove-btn" onclick="removeProduct(this)">Eliminar</button></td>
+          </tr>
+          <tr data-price="85">
+            <td><img src="./assets/images/product-13.jpg" alt="Producto"></td>
+            <td>Filete de Res Premium</td>
+            <td>Q85</td>
+            <td>
+              <div class="quantity-controls">
+                <button onclick="updateQuantity(this, -1)">-</button>
+                <span class="quantity">1</span>
+                <button onclick="updateQuantity(this, 1)">+</button>
+              </div>
+            </td>
+            <td class="subtotal">Q85.00</td>
+            <td><button class="remove-btn" onclick="removeProduct(this)">Eliminar</button></td>
+          </tr>
+          <tr data-price="85">
+            <td><img src="./assets/images/product-13.jpg" alt="Producto"></td>
+            <td>Filete de Res Premium</td>
+            <td>Q85</td>
+            <td>
+              <div class="quantity-controls">
+                <button onclick="updateQuantity(this, -1)">-</button>
+                <span class="quantity">1</span>
+                <button onclick="updateQuantity(this, 1)">+</button>
+              </div>
+            </td>
+            <td class="subtotal">Q85.00</td>
+            <td><button class="remove-btn" onclick="removeProduct(this)">Eliminar</button></td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <hr>
+
+      <div class="payments">
+        <span>Pago</span>
+        <div class="details">
+          <span>Subtotal:</span> <span id="subtotal">Q85.00</span>
+          <span>Envío:</span> <span id="envio">Q15.00</span>
+          <span>Total:</span> <span id="total">Q100.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card checkout">
+    <div class="footer">
+      <label class="price" id="checkout-total">Q100.00</label>
+      <a href="Metodo de pago.html"><button class="checkout-btn">Pagar</button></a>
+    </div>
+  </div>
+</div>
+
+          <p class="copyright">
+            &copy; 2025 Eunise Román, Darwin López. Todos los derechos reservados.
+          </p>
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="Script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
